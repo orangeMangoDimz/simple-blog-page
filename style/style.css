@@ -1,0 +1,90 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 2em;
+    width: 1000px;
+    background: white;
+}
+.web-title{
+    font-size: 1.5rem;
+}
+
+.index-list ul li, a{
+    padding: 0.5em 0.3em;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 0.5em;
+    color: #9dcaeb;
+    font-weight: 700;
+}
+
+li a:hover{
+    cursor: pointer;
+    background-color: #d4fafa;
+}
+
+li a:focus{
+    background-color: #d4fafa;
+}
+
+.cover-img img{
+    margin-top: 2.5em;
+    height: 100%;
+    width: 100%;
+}
+
+.blog-title, p{
+    padding-top: 1em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+#author{
+    padding: 0.5em;
+    text-decoration: none;
+    color: #9dcaeb;
+    font-weight: 900;
+}
+
+#author:hover{
+    cursor: pointer;
+    background-color: #d4fafa;
+}
+
+#author:focus{
+    background-color: #d4fafa;
+}
+
+#category{
+    text-align: right;
+}
+
+.blog-description{
+    text-indent: 3%;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+footer{
+    margin-top: 2.5em;
+    padding: 2em;
+    background-color: #afd5f0;
+    border-radius: 1em;
+    color: black;
+    text-align: center;
+}
